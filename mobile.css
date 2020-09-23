@@ -1,9 +1,0 @@
-@media (min-width: 40.5em) {
-    .container {
-        margin: auto;
-        max-width: 800px;
-      }
-    footer {
-        display: none;
-    }
-}
