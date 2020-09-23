@@ -148,7 +148,7 @@ input[type=tel]{
     background-color: #FFFAF0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
     .left, .main, .right {
       width: auto; /* The width is 100%, when the viewport is 800px or smaller */
     }
