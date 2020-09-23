@@ -26,4 +26,8 @@
         height: auto;   
        
     }
+
+    footer {
+        display: none;
+    }
   }
