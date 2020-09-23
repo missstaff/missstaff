@@ -6,28 +6,29 @@
         padding: 0;
     }
 
-    header {
-        position: relative;
-        margin-top: -20px;
-        margin-right: 0;
-        margin-bottom: 0px;
-        margin-left: 0;
-        padding: 0;
-        width: 100vw;
-        height: auto;
-    }
-
-    .header-img {
-        margin-top: 0px;
-        margin-right: 0;
-        margin-bottom: 0px;
-        margin-left: 0;
-        width: 100vw;
-        height: auto;   
-       
-    }
-
-    footer {
-        display: none;
-    }
+    
   }
+  header {
+    position: relative;
+    margin-top: -20px;
+    margin-right: 0;
+    margin-bottom: 0px;
+    margin-left: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+}
+
+.header-img {
+    margin-top: 0px;
+    margin-right: 0;
+    margin-bottom: 0px;
+    margin-left: 0;
+    width: 100vw;
+    height: auto;   
+   
+}
+
+footer {
+    display: none;
+}
