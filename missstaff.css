@@ -170,7 +170,7 @@ input[type=tel]{
    
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
     #response {
         display:flex;
     }
