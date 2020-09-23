@@ -3,3 +3,10 @@
       width: 100vw;
     }
   }
+
+@media screen and (orientation: landscape)
+{
+    .header-img {
+        width: 100vw;
+      }
+}
