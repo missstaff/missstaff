@@ -1,0 +1,49 @@
+@media screen and (orientation: landscape) {
+
+    .container {
+        flex-direction: column;
+        position: relative;
+        bottom:0;
+        top:0;
+        left:0;
+        right:0;
+    }
+    
+    .column {
+        float: left;
+    }
+    
+    .left, .right {
+        width: 25%;
+        height: 100vh;
+        background-color:#FFE4E1;  
+    }
+    
+    .middle {
+        width: 50%;
+        height: 100vh;
+        background-color: #FFFAF0;
+    }
+    
+    .res-left, .res-right {
+        width: 25%;
+        height: 100rem;
+        background-color:#FFE4E1;   
+    }
+    
+    .res-middle {
+        width: 50%;
+        height: 100rem;
+        background-color: #FFFAF0;
+    }
+    
+    #resume-head {
+        display: inline-flex;
+        width: fit-content;
+    }
+    
+    .resumes {
+        margin-left: 25px;
+       
+    }
+}
