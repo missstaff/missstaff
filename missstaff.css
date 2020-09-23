@@ -167,3 +167,9 @@ input[type=tel]{
   margin-left: 25px;
  
 }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
