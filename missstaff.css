@@ -22,8 +22,8 @@ header {
     margin-right: 0;
     margin-bottom: 0px;
     margin-left: 0;
-    max-width:100%;
-    height:auto;
+    width: 100%;
+    height: 15em;   
    
 }
 
@@ -147,16 +147,6 @@ input[type=tel]{
     height: 100vh;
     background-color: #FFFAF0;
 }
-
-@media screen and (max-width: 800px) {
-    .left, .main, .right {
-      width: auto; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-
-@media screen and (max-width: 800px) {
-    .res-left, .res-main, .res-right {
-        width: auto; /* The width is 100%, when the viewport is 800px or smaller */
-    }
 
 .res-left, .res-right {
     width: 25%;
