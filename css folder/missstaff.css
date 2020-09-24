@@ -25,7 +25,7 @@ header {
   height: 15em;   
 }
 
-.vertical-menu {
+.vertical-menu, .social {
   list-style-type: none;
   display: block;
   font-size: 20px;
