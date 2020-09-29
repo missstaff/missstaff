@@ -40,7 +40,10 @@ header {
   text-decoration: none;
 }
 
-
+.social {
+  list-style-type: none;
+  text-align: center;
+}
 
 footer {
   position: relative;
