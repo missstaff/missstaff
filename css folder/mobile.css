@@ -1,19 +1,17 @@
-body {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680)); /*calculation for reflexive font size*/
-}
+
 
 @media screen and (max-width: 300px) {
    .column {
         width: 100%;
         height: 100%;
    }
+  
 }
 
 @media screen and (min-width: 575px) {
     .column {
-        display: inline-block;
         width: 100%;
-        height: 100%;
+        height: 100%;  
     }
   }
   
@@ -49,25 +47,15 @@ body {
   /* x-large screens */
   
   @media screen and (min-width: 1200px) {
-    .container {
-        flex-direction: column;
-        position: relative;
-        bottom:0;
-        top:0;
-        left:0;
-        right:0;
-      }
       .column {
           height: 100vh;
       }
-      .right {
-          width: 25%;
+
+      .left, .right {
+        width: 25%;
       }
+      
       .middle {
-          width: 50%;
-          height: 100%;
-      }
-      .left {
-          width: 25%;
+        width: 50%;
       }
   }
