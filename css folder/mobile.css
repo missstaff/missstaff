@@ -2,7 +2,7 @@
 @media only screen and (max-width: 300px) {
     .column {
         height: 100%;
-        width: 100%;
+        width: 100vw;
     }
    
 }
@@ -30,7 +30,7 @@
 @media only screen and (min-width: 575px) {
     .column {
         height: 100%;
-        width: 100%;
+        width: 100vw;
     }
     .vertical-menu {
         display: none;
