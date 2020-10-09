@@ -6,7 +6,6 @@ html,body {
 }
 
 header {
-  position: relative;
   margin-top: -20px;
   margin-right: 0;
   margin-bottom: 0px;
@@ -17,6 +16,7 @@ header {
 }
 
 .header-img {
+  position: fixed;
   margin-top: 0px;
   margin-right: 0;
   margin-bottom: 0px;
