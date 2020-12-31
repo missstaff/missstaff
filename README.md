@@ -1,3 +1,2 @@
 # missstaff.com
-my professional website
-As a soon to be graduate I figured creating a professional website to accompany my resume couldn't hurt.
+Professional website of Miss Junior Developer. This website is intended to act as on online portfolio with access to my resume and GitHub profile. 
