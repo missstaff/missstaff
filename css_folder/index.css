@@ -230,6 +230,7 @@ body {
 
 /*CONTACT FORM STYLING*/
 /* Style inputs */
+/* Style inputs */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -240,8 +241,6 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    display: block;
-    margin: 0 auto;
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -263,7 +262,7 @@ input[type=text], select, textarea {
   /* Create two columns that float next to eachother */
   .contact__form__column {
     float: left;
-    width: 100%;
+    width: 50%;
     margin-top: 6px;
     padding: 20px;
   }
