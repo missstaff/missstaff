@@ -7,46 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Favicon-->
   <link rel="shortcut icon" type="image/png" href="/images/miss_w.png" />
-  <link rel="stylesheet" href="/css folder/index.css" />
+  <link rel="stylesheet" href="/css_folder/index.css" />
 
   <title>Miss Staff</title>
 </head>
 
 <body>
-  <!--<div class="grid">
-       <nav>
-            <li><a class="brand" href="#home">Miss</a></li>
-            <ul>
-                <div id="nav-link">
-                <li><a class="nav-link" id="nav-link" href="#about">About</a></li>
-                <li><a class="nav-link" id="nav-link" href="#projects">Projects</a></li>
-                <li><a class="nav-link" id="nav-link" href="#contact">Contact</a></li>
-                </div>
-                <button class="mobile-nav-button" id="mobile-button">
-                    <div class="hamburger-button"></div>
-                    <div class="hamburger-button"></div>
-                    <div class="hamburger-button"></div>
-                </button>
-            </ul>
-        </nav>-->
-  <div>
+  <div class="grid">
     <div id="navbar">
       <nav class="navbar-container container">
         <a href="/" class="home-link">
           <!--Branding-->
-          <img src="images/miss_w.png" width="100px" height="75px" />
+          <img src="images/miss_w.png" id="logo" width="100" height="auto" alt="Miss Staff logo" />
 
         </a>
         <button type="button" class="navbar-toggle" id="button" aria-label="Open navigation menu">
-          <span class="icon-bar"id="toggle-button" ></span>
-          <span class="icon-bar"id="toggle-button" ></span>
-          <span class="icon-bar" id="toggle-button"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
-        <div >
+        <div>
           <ul class="navbar-links">
-            <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="about">About</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="projects">Projects</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -60,16 +44,37 @@
       </section>
       <!--Contact Form Section-->
       <section>
-        <h2>Contact</h2>
+        <!--Contact Form-->
+        <div class="contact__form__container">
+          <div style="text-align:center">
+            <h2>Contact</h2>
+            <p>Send me a message!</p>
+          </div>
+          <div class="contact__form__row">
+            <!--<div class="contact__form__column">
+              <br />
+              <img src="/images/header_image.jpg" style="width:100%" style="height:100%">
+            </div>-->
+            <div class="contact__form__column">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="lname">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
       </section>
-      <footer>
-        &#169;Miss Staff 2021
-      </footer>
+     
     </div>
 
   </div>
 
-  <script src="/js folder/index.js"></script>
+  <script src="/js_folder/index.js"></script>
 </body>
 
 </html>
