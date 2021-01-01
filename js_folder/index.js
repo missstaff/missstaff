@@ -9,6 +9,12 @@ class Index {
 
     //hamburger button on touch event handler//
     document.getElementById("button").onclick = this.toggle.bind(this);
+    let count = 3;
+    let id = 0;
+    for( let i = 0; i < count; i++) {
+      document.getElementById(id).onclick = this.closeMobileNavbar.bind(this);
+      id++;
+    }
 
   }
   //toggles navbar open
@@ -17,7 +23,7 @@ class Index {
     this.navbarToggle.setAttribute("aria-label", "Close navigation menu.");
   }
   //toggle navbar closed
-  closeMobileNavbar() {
+  closeMobileNavbar(event) {
     this.navbar.classList.remove("opened");
     this.navbarToggle.setAttribute("aria-label", "Open navigation menu.");
   }
