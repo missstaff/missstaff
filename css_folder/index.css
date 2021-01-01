@@ -230,7 +230,6 @@ body {
 
 /*CONTACT FORM STYLING*/
 /* Style inputs */
-/* Style inputs */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -241,6 +240,8 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
+    display: block;
+    margin: 0 auto;
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -259,12 +260,12 @@ input[type=text], select, textarea {
     padding: 10px;
   }
   
-  /* Create two columns that float next to eachother */
   .contact__form__column {
     float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
+    width: 45%;
+    margin-top: 8px;
+    margin: 0;
+    padding: 0;
   }
   
   /* Clear floats after the columns */
@@ -273,12 +274,24 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
-  
+  .worldwide {
+      width: 100vw;
+  }
+
+  label {
+      color: #fff;
+  }
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .contact__form__column, input[type=submit] {
       width: 100%;
       margin-top: 0;
+    }
+    label {
+        color: #000;
+    }
+    .worldwide {
+        width: 100%;
     }
   }
 
